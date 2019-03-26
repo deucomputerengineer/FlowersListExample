@@ -68,6 +68,7 @@ class ViewController: BaseViewController {
 
         DispatchQueue.main.async {
             self.tableViewList.reloadData()
+            self.tableViewList.isHidden = false
         }
     }
 
